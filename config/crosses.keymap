@@ -34,7 +34,7 @@
             bindings = <
 &trans        &trans    &trans     &trans     &trans  &trans  &kp K_PLAY_PAUSE  &kp C_MUTE  &kp C_SHUFFLE  &kp C_REPEAT
 &kp LG(LGUI)  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &trans  &kp K_PREVIOUS   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT 
-&trans        &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans    &trans     &trans     &trans  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &bt BT_CLR_ALL  &trans
                         &trans     &trans     &trans  &trans  &trans  &trans
             >;
         };
