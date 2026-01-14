@@ -7,7 +7,7 @@
 / {
     chosen { zmk,physical-layout = &gggw_crosses_36_layout; };
 
-    &lt {
+    &mt {
         tapping-term-ms = <280>;
         flavor = "tap-preferred";
         quick-tap-ms = <175>;
