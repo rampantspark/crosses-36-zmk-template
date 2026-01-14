@@ -7,23 +7,6 @@
 / {
     chosen { zmk,physical-layout = &gggw_crosses_36_layout; };
 
-    &mt {
-        tapping-term-ms = <280>;
-        flavor = "tap-preferred";
-        quick-tap-ms = <175>;
-    };
-
-    /* behaviors { */
-    /*     as: auto_shift { */
-    /*         compatible = "zmk,behavior-hold-tap"; */
-    /*         #binding-cells = <2>; */
-    /*         tapping_term_ms = <200>; */
-    /*         quick_tap_ms = <0>; */
-    /*         flavor = "tap-preferred"; */
-    /*         bindings = <&kp>, <&kp>; */
-    /*     }; */
-    /* }; */
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -92,3 +75,8 @@
     };
 };
 
+&mt {
+    tapping-term-ms = <280>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <175>;
+};
