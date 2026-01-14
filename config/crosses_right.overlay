@@ -1,0 +1,6 @@
+/ {
+  chosen {
+    zmk,display = &oled;
+  };
+};
+
