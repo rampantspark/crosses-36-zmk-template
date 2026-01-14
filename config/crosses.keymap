@@ -7,6 +7,12 @@
 / {
     chosen { zmk,physical-layout = &gggw_crosses_36_layout; };
 
+    &lt {
+        tapping-term-ms = <280>;
+        flavor = "tap-preferred";
+        quick-tap-ms = <175>;
+    };
+
     /* behaviors { */
     /*     as: auto_shift { */
     /*         compatible = "zmk,behavior-hold-tap"; */
@@ -42,7 +48,7 @@
         navigation {
             bindings = <
 &trans        &trans    &trans     &trans     &trans  &kp K_REDO    &kp K_PASTE    &kp K_COPY    &kp K_CUT  &kp K_UNDO
-&kp LG(LGUI)  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &kp CAPS  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+&kp LG(LGUI)  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp CAPS
 &trans        &trans    &trans     &trans     &trans  &kp INSERT    &kp HOME    &kp PG_DN    &kp PG_UP  &kp END
                         &trans     &trans     &trans  &kp RET   &kp BSPC  &kp DEL
             >;
