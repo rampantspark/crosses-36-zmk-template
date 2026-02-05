@@ -1,5 +1,5 @@
 &spi1 {
   trackball_peripheral: trackball_peripheral@0 {
-    cpi = <200>;
+    cpi = <300>;
   };
 };
